@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>Guess Number Game</display-name>
+	<welcome-file-list>
+		<welcome-file>GuessGame.jsp</welcome-file>
+	</welcome-file-list>
+	<session-config>
+		<session-timeout>15</session-timeout>
+	</session-config>
+	<!-- <servlet>
+		<servlet-name>GameServlet</servlet-name>
+		<servlet-class>GameServlet</servlet-class>
+	</servlet> -->
+	<!-- <servlet>
+		<servlet-name>comjava</servlet-name>
+		<jsp-file>/serv.jsp</jsp-file>
+	</servlet> -->
+
+	<!-- <servlet-mapping>
+		<servlet-name>GameServlet</servlet-name>
+		<url-pattern>/GameServlet</url-pattern>
+	</servlet-mapping> -->
+</web-app>
